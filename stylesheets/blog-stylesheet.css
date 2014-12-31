@@ -1,0 +1,16 @@
+.title {
+  font-size: 2.1em;
+  font-style: Helvetica;
+  font-weight: bold;
+}
+.header_phrase {
+  font-size: 1.5em;
+  font-style: Helvetica italic;
+}
+.date {
+  font-size: 1.5em;
+  font-style: Helvetica italic;
+}
+.body {
+  font-style: Helvetica;
+}
