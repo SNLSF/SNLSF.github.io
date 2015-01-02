@@ -13,14 +13,14 @@
   display: block;
 }
 .date {
-  font-size: 1.5em;
-  font-family: Helvetica;
-
+  font-size: 1.3em;
+  font-family: Times;
+  font-style: italic;
+  color: #CCCC66;
 }
 .subtitle {
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-family: Helvetica;
-  font-style: italic;
 }
 .content {
   font-family: Arial;
