@@ -2,7 +2,7 @@
 <head>
   <title>Technically Speaking</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css" >
 </head>
 
 <main>
@@ -17,64 +17,54 @@
         Margins, borders, and paddings make your website easy on the eyes.  Without them, all of your images and text would crowd right up next to each other with no whitespace to serve as a buffer.  Keep this image in mind as I walk through adding margins, borders, and padding to an element with default settings.
       </p>
       <p>
-        <img src="http://www.washington.edu/accesscomputing/webd2/student/unit3/images/boxmodel.gif" />
+        <img src="http://www.washington.edu/accesscomputing/webd2/student/unit3/images/boxmodel.gif" style="margin-top: 30px;margin-bottom: 30px;" />
       </p>
       <p>
         These are Chrome screen shots with the Chrome Tools panel open to give some additional insight to the CSS and HTML changes as we go along.
       </p>
 
-      <p>
-        <span class="step1">1. Zero Margin, Zero Border, Zero Padding.</span>
+      <p style="font-size: 1.5em; font-style: italic;">
+        1. Zero Margin, Zero Border, Zero Padding.
       </p>
       <p>
-        <!-- add explanation -->
         If I simply add content with no additional formatting, this is what we're going to see. Notice that the style panel in Chrome Tools is practically empty- that will change in the next step.
-        <img id="step11" src="../11.png" width="1000" height="373" />
+        <img id="step11" src="../11.png" width="1000" height="373" style="margin-top: 30px;margin-bottom: 30px;" />
       </p>
 
-      <p>
-        <span class="step2">2. 100px Margin, Zero Border, Zero Padding.</span>
+      <p style="font-size: 1.5em; font-style: italic;">
+        2. 100px Margin, Zero Border, Zero Padding.
       </p>
       <p>
-        <!-- add explanation -->
         Here the only adjustment is the addition of a margin.  The space the margin occupies is outside of the border- which will be made visible in the next step.
-        <img id="step12" src="../12.png" width="1000" height="373" />
+        <img id="step12" src="../12.png" width="1000" height="373" style="margin-top: 30px;margin-bottom: 30px;" />
+      </p>
+      <p style="font-size: 1.5em; font-style: italic;">
+        3. 100px Margin, Black Solid Border, Zero Padding.
       </p>
       <p>
-        <span class="step3">3. 100px Margin, Black Solid Border, Zero Padding.</span>
-        <!-- add image -->
-      </p>
-      <p>
-        <!-- add explanation -->
         Now that I added a border, you can get a more clear visual of the margin added to all sides in the previous step. The black line surrounding the text is the border which can be changed to solid, dotted, thick, thin, among many other variations.
-        <img id="step13" src="../13.png" width="1000" height="373" />
+        <img id="step13" src="../13.png" width="1000" height="373" style="margin-top: 30px;margin-bottom: 30px;" />
+      </p>
+      <p style="font-size: 1.5em; font-style: italic;">
+        4. 100px Margin, Black Solid Border, 20px Padding.
       </p>
       <p>
-        <span class="step4">4. 100px Margin, Black Solid Border, 20px Padding.</span>
-        <!-- add image -->
-      </p>
-      <p>
-        <!-- add explanation -->
         In this step, I added 20 pixels of padding- the space between the text itself and the black solid line.  You can see the margin, border, and padding boxes checked in the Style panel at the bottom right corner of the screen.  Similarly, the new modifications are now visible in the HTML code in the Elements panel.
-        <img id="step14" src="../14.png" width="1000" height="373" />
+        <img id="step14" src="../14.png" width="1000" height="373" style="margin-top: 30px;margin-bottom: 30px;" />
+      </p>
+      <p style="font-size: 1.5em; font-style: italic;">
+        5. Zero Margin, Black Solid Border, Zero Padding.
       </p>
       <p>
-        <span class="step5">5. Zero Margin, Black Solid Border, Zero Padding.</span>
-        <!-- add image -->
-      </p>
-      <p>
-        <!-- add explanation -->
         Now I start to take away the modifications one at a time.  See here we removed the margin altogether, replacing the element to its default setting.
-        <img id="step15" src="../15.png" width="1000" height="373" />
+        <img id="step15" src="../15.png" width="1000" height="373" style="margin-top: 30px;margin-bottom: 30px;" />
+      </p>
+      <p style="font-size: 1.5em; font-style: italic;">
+        6. Back to Default Settings: Zero Margin, Zero Border, Zero Padding.
       </p>
       <p>
-        <span class="step6">6. Back to Default Settings: Zero Margin, Zero Border, Zero Padding.</span>
-        <!-- add image -->
-      </p>
-      <p>
-        <!-- add explanation -->
         To go a step further, I removed all modifications- margin, border, AND padding.  We're back to the element in all of its default settings.
-        <img id="step16" src="../16.png" width="1000" height="373" />
+        <img id="step16" src="../16.png" width="1000" height="373" style="margin-top: 30px;margin-bottom: 30px;" />
       </p>
       <p>
         If this extraordinary post inspires you to learn more about CSS and HTML formatting options, check out <a href="http://www.codecademy.com/en/tracks/web">Code Academy's course on HTML & CSS</a>.
