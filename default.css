@@ -2,7 +2,7 @@
 .header_links {
   font-family: Times;
   font-style: italic;
-  font-size: 1.3em;
+  font-size: 1em;
   display: inline-block;
   margin-left: 100px;
   margin-top: 70px;
@@ -12,11 +12,10 @@
 .social_media {
   display: inline-block;
   margin-left: 1250px;
-  margin-top: 70px;
 }
 
 .title {
-  font-size: 6em;
+  font-size: 2em;
   font-weight: bold;
   font-family: Helvetica;
   display: block;
@@ -67,6 +66,7 @@
   float: left;
   vertical-align: bottom;
   padding-top: 100px;
+  font-family: Times;
 }
 
 .pic {
