@@ -15,7 +15,7 @@
 }
 
 .title {
-  font-size: 2em;
+  font-size: 4em;
   font-weight: bold;
   font-family: Helvetica;
   display: block;
@@ -48,7 +48,7 @@
 .write {
   font-family: Times;
   font-style: italic;
-  font-size: 1.8em;
+  font-size: 1.3em;
   text-align: center;
   display: block;
   padding-top: 70px;
@@ -67,6 +67,7 @@
   vertical-align: bottom;
   padding-top: 100px;
   font-family: Times;
+  font-size: 1em;
 }
 
 .pic {
