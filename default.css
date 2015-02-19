@@ -5,7 +5,7 @@ html, body {
 .header_links {
   font-family: Times;
   font-style: italic;
-  font-size: 1.5em;
+  font-size: 1.2em;
   float: left;
   margin-left: 60px;
   vertical-align: baseline;
@@ -28,7 +28,7 @@ a:hover {
 
 .social_media {
   float: right;
-  margin-right: 60px;
+  margin-right: 5%;
 }
 
 .title {
@@ -71,23 +71,6 @@ a:hover {
   height: 100%;
   text-align: center;
   vertical-align: top;
-}
-
-.boxInner .titleBox {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin-bottom: -50px;
-  background: #000;
-  background: rgba(0, 0, 0, 0.5);
-  color: #FFF;
-  padding: 10px;
-  text-align: center;
-  -webkit-transition: all .3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
 }
 
 .blogtitle {
