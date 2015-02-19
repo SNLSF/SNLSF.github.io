@@ -77,14 +77,14 @@ a:hover {
 }
 
 .blogtitle {
-  font-size: 1.7em;
+  font-size: 1.4em;
   font-family: Helvetica;
   font-weight: bold;
   display: block;
 }
 
 .blogdate {
-  font-size: 1.4em;
+  font-size: 1em;
   font-family: Times;
   font-style: italic;
   color: #CCCC66;
@@ -92,7 +92,7 @@ a:hover {
 }
 
 .blogsubtitle {
-  font-size: 1.3em;
+  font-size: 1em;
   font-family: Helvetica;
   line-height: 1.4em;
 }
