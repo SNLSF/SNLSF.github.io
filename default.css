@@ -47,6 +47,8 @@ a:hover {
 .wrap {
   overflow: hidden;
   margin: 60px;
+  width: 70%;
+  float: right;
 }
 
 .box {
@@ -132,21 +134,11 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
    }
 }
 
-.twitterfeed {
+.sidepanel{
+  width: 20%;
+  float: left;
+  margin-left: 2%;
   display: inline-block;
-  width: 50%;
-}
-
-.blurb {
-  display: inline-block;
-  width: 500px;
-  margin-left: 60px;
-  margin-bottom: 60px;
-  font-family: Times;
-  font-size: .8em;
-  line-height: 1.3;
-  float: right;
-  vertical-align: top
 }
 
 .write {
@@ -156,6 +148,7 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
   text-align: center;
   display: block;
   padding-top: 70px;
+/*  width: 15%*/
 }
 
 .hello {
@@ -165,13 +158,21 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
   font-size: 4.5em;
   color: #CCCC66;
   vertical-align: top;
+  margin-bottom: 5%;
 }
 
 
-.pic {
+.blurb {
   display: inline-block;
-  margin-right: 60px;
-  float: right;
+  margin-bottom: 5%;
+  font-family: Times;
+  font-size: .8em;
+  line-height: 1.3;
+  vertical-align: top
+}
+
+.twitterfeed {
+  display: inline-block;
 }
 
 
