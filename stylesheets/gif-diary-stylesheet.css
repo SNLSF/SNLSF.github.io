@@ -1,0 +1,27 @@
+.everything {
+  margin-top: 100px;
+  margin-right: 300px;
+  margin-bottom: 100px;
+  margin-left: 300px;
+  display: inline-block;
+}
+
+.title {
+  font-size: 3.3em;
+  font-family: Helvetica;
+  font-weight: bold;
+  display: block;
+}
+.date {
+  font-size: 1.3em;
+  font-family: Times;
+  font-style: italic;
+  color: #CCCC66;
+}
+.subtitle {
+  font-size: 1.3em;
+  font-family: Helvetica;
+}
+.content {
+  font-family: Arial;
+}

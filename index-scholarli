@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Scholarli</title>
+  </head>
+  <body>
+      <link type="text/css" rel="stylesheet" href="default-projects.css" />
+      <span class="header">
+        <div class="header_links">
+          <a href="http://coyoteholdings.com">Home</a>/
+          <a href="http://coyoteholdings.com/about/">About</a>/
+          <a href="http://coyoteholdings.com/">Portfolio</a>/
+          <a href="http://coyoteholdings.com/">Projects</a>/
+          <a href="http://coyoteholdings.com/travel-surf/">Blog</a>/
+          <a href="http://coyoteholdings.com/about/">Contact</a>
+        </div>
+        <div class="social_media">
+          <a href="https://twitter.com/SNLSF"><img src="http://simpleicon.com/wp-content/uploads/twitter.png" alt="Twitter" width="30" height="30" /></a>
+          <a href="https://www.linkedin.com/in/stephanienicolelopez/"><img src="http://www.logoeps.com/wp-content/uploads/2014/09/49068-linkedin-logo-icon-vector-icon-vector-eps-200x200.png" alt="LinkedIn" width="30" height="30" /></a>
+        </div>
+      </span>
+
+    <h1 class="title">
+      Steph Lopez
+    </h1>
+
+    <article>
+      <div class="summary">
+        <h2>
+          Scholarli
+        </h2>
+        <p>
+          In 2013, I built a free aggregator website during the early months of the massive open online course (MOOC) movement called Mindboot.
+
+          Courses from top universities and leading MOOC providers such as edX, Coursera, and Udacity were featured on the site in an easy to search, sort, and filter format.  Users were also able to search nearby Meetup study groups or search STEM job listings.
+
+          I took this idea from conception to launch designing the logo and creating wireframes for the programming team to deliver a highly functional site with optimum user experience.
+        </p>
+      </div>
+
+      <div class="pics">
+        <img src="pics/MINDBOOT_HOME.png" width=100% />
+        <img src="pics/MINDBOOT_ABOUT.png" width=100% />
+        <img src="pics/MINDBOOT_MEETUP.png" width=100% />
+        <img src="pics/MINDBOOT_PROVIDERS.png" width=100% />
+      </div>
+    </article>
+
+  </body>
+</html>
