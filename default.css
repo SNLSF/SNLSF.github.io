@@ -1,29 +1,35 @@
+/*
+font-family: 'Permanent Marker', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Open Sans', sans-serif;
+*/
+
 html, body {
   height: 100%;
 }
 
 .header_links {
-  font-family: Times;
-  font-style: italic;
+  font-family: 'Permanent Marker', cursive;
+  font-style: italic, #373D3C;
   font-size: .8em;
   float: left;
-  margin-left: 60px;
+  margin-left: 2%;
   vertical-align: baseline;
 }
 
 /* unvisited link */
 a:link {
-    color: black;
+    color: #373D3C;
 }
 
 /* visited link */
 a:visited {
-    color: black;
+    color: #373D3C;
 }
 
 /* mouse over link */
 a:hover {
-    color: #CCCC66;
+    color: #00D4C0;
 }
 
 .social_media {
@@ -32,13 +38,13 @@ a:hover {
 }
 
 .title {
-  font-size: 4em;
+  font-family: 'Rock Salt', cursive;
+  font-size: 5em;
   font-weight: bold;
-  font-family: Arial;
   display: block;
   text-align: center;
   vertical-align: bottom;
-  color: #CCCC66;
+  color: #FFFCDC;
   padding-top: 8%;
   padding-bottom: 1%;
 }
@@ -67,6 +73,7 @@ a:hover {
   top: 10px;
   bottom: 10px;
   overflow: hidden;
+/*  background-color: #FFFCE6;*/
 }
 
 /*We want our images (which are square) to fill the full tile width, so we use width:100%*/
@@ -78,29 +85,32 @@ a:hover {
 
 .blogtitle {
   font-size: 1.4em;
-  font-family: Helvetica;
+  font-family: 'Open Sans', sans-serif, bold;
   font-weight: bold;
   display: block;
+  font-style: #373D3C;
 }
 
 .blogdate {
   font-size: 1em;
-  font-family: Times;
+  font-family: 'Open Sans', sans-serif, bold;
   font-style: italic;
-  color: #CCCC66;
   line-height: 1.4em;
+  font-style: #373D3C;
 }
 
 .blogsubtitle {
   font-size: 1em;
-  font-family: Helvetica;
+  font-family: 'Open Sans', sans-serif, bold;
   line-height: 1.4em;
+  font-style: #373D3C;
 }
 
 .blogblurb{
-  font-family: Arial;
+  font-family: 'Open Sans', sans-serif;
   font-size: .8em;
   line-height: 1.2em;
+  font-style: #373D3C;
 }
 
 body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {margin-bottom: 0;
@@ -143,21 +153,20 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
 }
 
 .write {
-  font-family: Times;
-  font-style: italic;
+  font-family: 'Rock Salt', cursive;
+  font-style: italic, #373D3C;
   font-size: 1.3em;
   text-align: center;
   display: block;
   padding-top: 70px;
-/*  width: 15%*/
 }
 
 .hello {
   display: block;
   text-align: center;
-  font-family: Arial;
+  font-family: 'Permanent Marker', cursive;
   font-size: 4.5em;
-  color: #CCCC66;
+  font-style: #00D4C0;
   vertical-align: top;
   margin-bottom: 5%;
 }
@@ -166,10 +175,11 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
 .blurb {
   display: inline-block;
   margin-bottom: 5%;
-  font-family: Times;
+  font-family: 'Open Sans', sans-serif;
   font-size: .8em;
   line-height: 1.3;
-  vertical-align: top
+  vertical-align: top;
+  font-style: #373D3C;
 }
 
 .twitterfeed {
