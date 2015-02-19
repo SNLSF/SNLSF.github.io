@@ -5,7 +5,7 @@ html, body {
 .header_links {
   font-family: Times;
   font-style: italic;
-  font-size: 1.2em;
+  font-size: .8em;
   float: left;
   margin-left: 60px;
   vertical-align: baseline;
@@ -74,14 +74,14 @@ a:hover {
 }
 
 .blogtitle {
-  font-size: 2em;
+  font-size: 1.7em;
   font-family: Helvetica;
   font-weight: bold;
   display: block;
 }
 
 .blogdate {
-  font-size: 1.6em;
+  font-size: 1.4em;
   font-family: Times;
   font-style: italic;
   color: #CCCC66;
@@ -89,14 +89,14 @@ a:hover {
 }
 
 .blogsubtitle {
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-family: Helvetica;
   line-height: 1.4em;
 }
 
 .blogblurb{
   font-family: Arial;
-  font-size: 1.2em;
+  font-size: 1em;
   line-height: 1.2em;
 }
 
