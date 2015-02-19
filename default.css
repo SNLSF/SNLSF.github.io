@@ -45,8 +45,7 @@ a:hover {
   text-align: center;
   vertical-align: bottom;
   color: #FFFCDC;
-  padding-top: 8%;
-  padding-bottom: 1%;
+  padding-top: 4%;
 }
 
 /*The use of overflow:hidden allows us to apply floats to the tiles within.*/
