@@ -50,13 +50,12 @@ a:hover {
   padding-top: 4%;
 }
 
-article {
+.wrap {
   overflow: hidden;
-  margin: 60px;
+  margin: 10px;
   width: 70%;
   float: right;
   display: inline-block;
-  position: relative;
 }
 
 h2{
@@ -74,11 +73,8 @@ h2{
   font-style: #373D3C;
   line-height: 1.3em;
   display: inline-block;
-  position: absolute;
-  width: 40%;
+  width: 50%;
   vertical-align: top;
-  margin-right: 5%;
-  margin-left: 5%
 }
 
 .pics{

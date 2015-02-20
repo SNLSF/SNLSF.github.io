@@ -4,6 +4,16 @@ font-family: 'Rock Salt', cursive;
 font-family: 'Open Sans', sans-serif;
 */
 
+/*Colors:
+#373D3C gray
+#00D4C0 teal
+#CFBA7D brown*/
+
+/*TO DO:*/
+/*need to standardize everything with sidepanel and content tags (done for the projects but not blogs)*/
+/*Need to change blog template*/
+
+
 html, body {
   height: 100%;
 }
@@ -51,7 +61,7 @@ a:hover {
 /*The use of overflow:hidden allows us to apply floats to the tiles within.*/
 .wrap {
   overflow: hidden;
-  margin: 60px;
+  margin: 10px;
   width: 70%;
   float: right;
   display: inline-block;
@@ -154,7 +164,7 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
 .write {
   font-family: 'Rock Salt', cursive;
   font-style: italic, #373D3C;
-  font-size: 1.3em;
+  font-size: 1em;
   text-align: center;
   display: block;
   padding-top: 70px;
@@ -164,7 +174,7 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
   display: block;
   text-align: center;
   font-family: 'Permanent Marker', cursive;
-  font-size: 4.5em;
+  font-size: 3.5em;
   font-style: #00D4C0;
   vertical-align: top;
   margin-bottom: 5%;
