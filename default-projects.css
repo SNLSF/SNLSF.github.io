@@ -46,16 +46,27 @@ a:hover {
   display: block;
   text-align: center;
   vertical-align: bottom;
-  color: #FFFCDC;
+  color: #CFBA7D;
   padding-top: 4%;
 }
 
 article {
-  text-align: left;
-  margin: 2%;
-  border-top: #00D4C0 solid 1px;
-  padding-top: 2%;
-  margin-bottom: 5%;
+  overflow: hidden;
+  margin: 60px;
+  width: 70%;
+  float: right;
+  display: inline-block;
+  position: relative;
+}
+
+h2{
+  font-family: 'Permanent Marker', cursive;
+  font-style: #373D3C;
+  line-height: 1.3em;
+  display: inline-block;
+  position: relative;
+  width: 40%;
+  vertical-align: top;
 }
 
 .summary{
@@ -63,7 +74,7 @@ article {
   font-style: #373D3C;
   line-height: 1.3em;
   display: inline-block;
-  position: relative;
+  position: absolute;
   width: 40%;
   vertical-align: top;
   margin-right: 5%;
@@ -112,21 +123,18 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
    }
 }
 
-.blurb {
-  width: 500px;
-  margin-left: 60px;
-  margin-bottom: 60px;
-  font-family: Times;
-  font-size: .8em;
-  line-height: 1.3;
+
+.sidepanel{
+  width: 15%;
   float: left;
-  vertical-align: bottom;
+  margin-left: 2%;
+  display: inline-block;
 }
 
 .write {
-  font-family: Times;
-  font-style: italic;
-  font-size: 1.5em;
+  font-family: 'Rock Salt', cursive;
+  font-style: italic, #373D3C;
+  font-size: 1.3em;
   text-align: center;
   display: block;
   padding-top: 70px;
@@ -135,19 +143,27 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
 .hello {
   display: block;
   text-align: center;
-  font-family: Arial;
-  font-size: 6em;
-  color: #CCCC66;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 4.5em;
+  font-style: #00D4C0;
   vertical-align: top;
+  margin-bottom: 5%;
 }
 
 
-.pic {
+.blurb {
   display: inline-block;
-  margin-right: 60px;
-  float: right;
+  margin-bottom: 5%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .8em;
+  line-height: 1.3;
+  vertical-align: top;
+  font-style: #373D3C;
 }
 
+.twitterfeed {
+  display: inline-block;
+}
 
 <!-- Enable media queries for old IE -->
 <!--[if lt IE 9]>
