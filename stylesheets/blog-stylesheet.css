@@ -4,18 +4,132 @@ font-family: 'Rock Salt', cursive;
 font-family: 'Open Sans', sans-serif;
 */
 
+/*Colors:
+#373D3C gray
+#00D4C0 teal
+#CFBA7D brown*/
+
+
 html, body {
   height: 100%;
 }
 
-.header_links {
-  font-family: 'Permanent Marker', cursive;
-  font-style: italic, #373D3C;
-  font-size: .8em;
-  float: left;
-  margin-left: 2%;
+.header_bar{
+  width: 100%;
+  background-color: #ffe3e0;
+  height: 220px;
   vertical-align: baseline;
+/*  display: inline-block;*/
+  position: relative;
 }
+
+    h1 {
+      display: inline-block;
+      width: 15%;
+      margin-left: 6%;
+      font-family: 'Rock Salt', cursive;
+      font-size: 5em;
+      line-height: .75em;
+      font-weight: bold;
+      color: white;
+    }
+
+    .header_links {
+      display: inline-block;
+      vertical-align: bottom;
+      float: right;
+      text-align: right;
+      margin-right: 5%;
+      margin-top: 110px;
+      font-family: 'Permanent Marker', cursive;
+      font-style: italic, #373D3C;
+      font-size: 25px;
+    }
+
+.side_panel{
+  width: 20%;
+  float: left;
+  display: inline-block;
+}
+
+    .me_pic{
+      text-align: right;
+      margin-top: 80px;
+    }
+
+    .write {
+      text-align: right;
+      font-family: 'Permanent Marker', cursive;
+      font-size: 25px;
+      font-style: #00D4C0;
+      vertical-align: top;
+      margin-bottom: 5%;
+    }
+
+    .twitterfeed {
+      float: right;
+      margin-top: 30px;
+    }
+
+.main_body{
+  width: 80%;
+  display: inline-block;
+}
+
+    .blog {
+      margin-top: 80px;
+      margin-left: 180px;
+      width: 90%;
+      float: left;
+    }
+
+    .color_block{
+      background-color: #ccf6f2;
+      width: 90%;
+      display: inline-block;
+      border-left: #ccf6f2 solid 15px;
+      padding: 15px;
+    }
+
+    .blog_title {
+      font-size: 2em;
+      font-family: 'Permanent Marker', cursive;
+      color: #373D3C;
+    }
+
+    .blog_subtitle {
+      font-size: 1.3em;
+      font-family: 'Permanent Marker', cursive;
+      color: #373D3C;
+    }
+
+    .blog_date {
+      font-size: 1.3em;
+      font-family: 'Permanent Marker', cursive;
+      color: #373D3C;
+    }
+
+    section {
+      font-family: 'Open Sans', sans-serif;
+      color: #373D3C;
+      font-size: 1em;
+      margin-left: 15px;
+      margin-top: 25px;
+    }
+
+
+
+
+
+.footer{
+  width: 100%;
+  background-color: #ffe3e0;
+  display: inline-block;
+  height: 100px;
+  vertical-align: baseline;
+  margin-top: 20px;
+}
+
 
 /* unvisited link */
 a:link {
@@ -32,92 +146,39 @@ a:hover {
     color: #00D4C0;
 }
 
-.social_media {
-  float: right;
-  margin-right: 5%;
-}
 
 
-.title {
-  font-family: 'Rock Salt', cursive;
-  font-size: 2.5em;
-  font-weight: bold;
-  display: block;
-  text-align: center;
-  vertical-align: bottom;
-  color: #CFBA7D;
-  padding-top: 6%;
-  padding-bottom: 5%;
-}
+/*Responsive CSS*/
 
+    @media only screen and (max-width : 480px) {
+       /* Smartphone view: 1 tile */
+       .box {
+          width: 100%;
+          padding-bottom: 100%;
+       }
+    }
+    @media only screen and (max-width : 650px) and (min-width : 481px) {
+       /* Tablet view: 2 tiles */
+       .box {
+          width: 50%;
+          padding-bottom: 50%;
+       }
+    }
+    @media only screen and (max-width : 1050px) and (min-width : 651px) {
+       /* Small desktop / ipad view: 3 tiles */
+       .box {
+          width: 33.3%;
+          padding-bottom: 33.3%;
+       }
+    }
+    @media only screen and (max-width : 1290px) and (min-width : 1051px) {
+       /* Medium desktop: 4 tiles */
+       .box {
+          width: 25%;
+          padding-bottom: 25%;
+       }
+    }
 
-.everything {
-  overflow: hidden;
-  width: 70%;
-  float: right;
-  display: inline-block;
-  position: relative;
-}
-
-
-.date {
-  font-size: 1.3em;
-  font-family: 'Permanent Marker', cursive;
-  color: #373D3C;
-}
-
-.subtitle {
-  font-size: 1.3em;
-  font-family: 'Permanent Marker', cursive;
-  color: #373D3C;
-}
-
-.content {
-  font-family: 'Open Sans', sans-serif;
-  color: #373D3C;
-}
-
-.sidepanel{
-  width: 15%;
-  float: left;
-  margin-left: 2%;
-  display: inline-block;
-  margin-top: 10%;
-}
-
-.write {
-  font-family: 'Rock Salt', cursive;
-  font-style: italic, #373D3C;
-  font-size: 1.3em;
-  text-align: center;
-  display: block;
-  padding-top: 70px;
-}
-
-.hello {
-  display: block;
-  text-align: center;
-  font-family: 'Permanent Marker', cursive;
-  font-size: 4.5em;
-  font-style: #00D4C0;
-  vertical-align: top;
-  margin-bottom: 5%;
-}
-
-
-.blurb {
-  display: inline-block;
-  margin-bottom: 5%;
-  font-family: 'Open Sans', sans-serif;
-  font-size: .8em;
-  line-height: 1.3;
-  vertical-align: top;
-  font-style: #373D3C;
-}
-
-.twitterfeed {
-  display: inline-block;
-}
 
 <!-- Enable media queries for old IE -->
 <!--[if lt IE 9]>
