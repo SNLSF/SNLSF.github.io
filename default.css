@@ -44,10 +44,10 @@ html, body {
       float: right;
       text-align: right;
       margin-right: 5%;
-      margin-top: 100px;
+      margin-top: 110px;
       font-family: 'Permanent Marker', cursive;
       font-style: italic, #373D3C;
-      font-size: 35px;
+      font-size: 25px;
     }
 
 .side_panel{
@@ -64,7 +64,7 @@ html, body {
     .write {
       text-align: right;
       font-family: 'Permanent Marker', cursive;
-      font-size: 35px;
+      font-size: 25px;
       font-style: #00D4C0;
       vertical-align: top;
       margin-bottom: 5%;
@@ -118,7 +118,7 @@ html, body {
     }
 
     .blogtitle {
-      font-size: 1.4em;
+      font-size: 1.1em;
       line-height: 1.4em;
       font-family: 'Open Sans', sans-serif, bold;
       font-weight: bold;
@@ -127,7 +127,7 @@ html, body {
     }
 
     .blogsubtitle {
-      font-size: 1.2em;
+      font-size: .9em;
       line-height: 1.4em;
       font-family: 'Open Sans', sans-serif, bold;
       line-height: 1.4em;
@@ -135,7 +135,7 @@ html, body {
     }
 
     .blogdate {
-      font-size: 1.2em;
+      font-size: .9em;
       line-height: 1.4em;
       font-family: 'Open Sans', sans-serif, bold;
       font-style: italic;
@@ -145,7 +145,7 @@ html, body {
 
     .blogblurb{
       font-family: 'Open Sans', sans-serif;
-      font-size: 1em;
+      font-size: .8em;
       line-height: 1.4em;
       font-style: #373D3C;
     }
