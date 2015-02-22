@@ -1,79 +1,99 @@
 <!DOCTYPE html>
-<head>
+<html>
   <link href='http://fonts.googleapis.com/css?family=Permanent+Marker|Rock+Salt|Open+Sans:300italic,400italic,600italic,400,300,600' rel='stylesheet' type='text/css'>
-  <title>Technically Speaking</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
-</head>
+  <head>
+    <title>Steph Lopez</title>
+  </head>
 
-<main>
+  <body>
+    <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css" />
+    <div class="header_bar">
 
-  <span class="header">
+      <h1 class="title">
+        Steph Lopez
+      </h1>
 
-        <div class="header_links">
+      <div class="header_links">
+          <a href="https://twitter.com/SNLSF"><img src="http://simpleicon.com/wp-content/uploads/twitter.png" alt="Twitter" width="35px" height="35px" /></a>
+          <a href="https://www.linkedin.com/in/stephanienicolelopez/"><img src="http://www.logoeps.com/wp-content/uploads/2014/09/49068-linkedin-logo-icon-vector-icon-vector-eps-200x200.png" alt="LinkedIn" width="35px" height="35px" /></a><br>
           <a href="../index.html">Home</a>/
           <a href="../index-about.html">About</a>/
-          <a href="https://github.com/SNLSF">Github</a>/
+          <a href="../https://github.com/SNLSF">Github</a>/
           <a href="../index-myprojects.html">Projects</a>/
           <a href="../index-myblogs.html">Blog</a>/
           <a href="mailto:stephanielopez.sf@gmail.com?subject=Hello">Contact</a>
+      </div>
+    </div>
+
+    <div class="side_panel">
+
+      <div class="me_pic">
+        <a href="index-about.html"><img src="../pics/steph_pic.png" width=195px /></a><br>
+      </div>
+
+      <div class="write">
+        <a href="mailto:stephanielopez.sf@gmail.com?subject=Hello" STYLE="text-decoration: none">Write to me.</a>
+      </div>
+
+      <!-- twitter feed -->
+      <div class="twitterfeed">
+        <a class="twitter-timeline" href="https://twitter.com/SNLSF" data-widget-id="568452059976847360">Tweets by @SNLSF</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </div>
+    </div>
+
+    <div class="main_body">
+
+      <div class="blog">
+
+        <div class="color_block">
+          <div class="blog_title">Newb to Newb:  JavaScript</div>
+          <div class="blog_subtitle">It's like Ruby, but not.</div>
+          <div class="blog_date">02.07.2015.</div>
         </div>
 
-        <div class="social_media">
-          <a href="https://twitter.com/SNLSF"><img src="http://simpleicon.com/wp-content/uploads/twitter.png" alt="Twitter" width="30" height="30" /></a>
-          <a href="https://www.linkedin.com/in/stephanienicolelopez/"><img src="http://www.logoeps.com/wp-content/uploads/2014/09/49068-linkedin-logo-icon-vector-icon-vector-eps-200x200.png" alt="LinkedIn" width="30" height="30" /></a>
+        <div class="content">
+            <p>
+              One of the fundamental differences in Ruby and JavaScript can be found when comparing JS's objects and Ruby's hashes. Though they are strikingly similar in their construct, you'll see the functionality is different as well as their overall scope within the program.
+            </p>
+
+            <p>
+              <b>JavaScript objects</b> are data structures that can be assigned unlimited properties.
+              <img src="../pics/t7.1.png" style= "margin-top: 30px;margin-bottom: 30px;width: 85%;display: inlineblock"/>
+            </p>
+
+            <p>
+              To add a property...
+              <img src="../pics/t7.2.png" style= "margin-top: 30px;margin-bottom: 30px;width: 85%;display: inlineblock" />
+            </p>
+
+            <p>
+              Unlike Ruby hashes, JavaScript allows you to take it a step further and make a property a function, since they are both objects.  By adding (), the computer understands you want to call the name of the property you've created and execute it like a function.
+              <img src="../pics/t7.3.png" style= "margin-top: 30px;margin-bottom: 30px;width: 85%;display: inlineblock"/>
+              <img src="../pics/t7.4.png" style= "margin-top: 30px;margin-bottom: 30px;width: 85%;display: inlineblock" />
+            </p>
+
+            <p>
+              <b>Ruby hashes</b> are also data structures with unlimited properties.
+             <img src="../pics/t7.5.png" style= "margin-top: 30px;margin-bottom: 30px;width: 85%;display: inlineblock"/>
+            </p>
+
+            <p>
+              If you wanted to add a value...
+              <img src="../pics/t7.6.png" style= "margin-top: 30px;margin-bottom: 30px;width: 85%;display: inlineblock"/>
+            </p>
+
+            <p>
+              In Ruby, hashes are custom objects we create separate from the method we create to modify them.  Hashes are essentially static data points. In other words, we cannot create a key value pair that operates as a function as in JavaScript.  This separation in Ruby, typically referred to as data encapsulation, requires additional code to help objects talk to each other.  In JS, because the functions are part of the object itself, there is no restriction to the property data.
+            </p>
+            <!-- copy and paste paragraphs -->
         </div>
 
-  </span>
+      </div>
 
-  <span class="everything">
+    </div>
 
-    <span class="title">Newb to Newb:  JavaScript</span>
-    <span class="date">02.07.2015.</span>
-    <span class="subtitle">It's like Ruby, but not.</span>
+    <div class="footer"></div>
 
-    <section>
-      <span class="content">
-
-        <p>
-          One of the fundamental differences in Ruby and JavaScript can be found when comparing JS's objects and Ruby's hashes. Though they are strikingly similar in their construct, you'll see the functionality is different as well as their overall scope within the program.
-        </p>
-
-        <p>
-          <b>JavaScript objects</b> are data structures that can be assigned unlimited properties.
-          <img src="../pics/t7.1.png" style= "margin-top: 30px;margin-bottom: 30px;width: 85%;display: inlineblock"/>
-        </p>
-
-        <p>
-          To add a property...
-          <img src="../pics/t7.2.png" style= "margin-top: 30px;margin-bottom: 30px;width: 85%;display: inlineblock" />
-        </p>
-
-        <p>
-          Unlike Ruby hashes, JavaScript allows you to take it a step further and make a property a function, since they are both objects.  By adding (), the computer understands you want to call the name of the property you've created and execute it like a function.
-          <img src="../pics/t7.3.png" style= "margin-top: 30px;margin-bottom: 30px;width: 85%;display: inlineblock"/>
-          <img src="../pics/t7.4.png" style= "margin-top: 30px;margin-bottom: 30px;width: 85%;display: inlineblock" />
-        </p>
-
-        <p>
-          <b>Ruby hashes</b> are also data structures with unlimited properties.
-         <img src="../pics/t7.5.png" style= "margin-top: 30px;margin-bottom: 30px;width: 85%;display: inlineblock"/>
-        </p>
-
-        <p>
-          If you wanted to add a value...
-          <img src="../pics/t7.6.png" style= "margin-top: 30px;margin-bottom: 30px;width: 85%;display: inlineblock"/>
-        </p>
-
-        <p>
-          In Ruby, hashes are custom objects we create separate from the method we create to modify them.  Hashes are essentially static data points. In other words, we cannot create a key value pair that operates as a function as in JavaScript.  This separation in Ruby, typically referred to as data encapsulation, requires additional code to help objects talk to each other.  In JS, because the functions are part of the object itself, there is no restriction to the property data.
-        </p>
-
-      </span>
-    </section>
-
-  </span>
-
-
-</main>
-
+  </body>
+</html>

@@ -1,51 +1,78 @@
 <!DOCTYPE html>
-<head>
+<html>
   <link href='http://fonts.googleapis.com/css?family=Permanent+Marker|Rock+Salt|Open+Sans:300italic,400italic,600italic,400,300,600' rel='stylesheet' type='text/css'>
-  <title>Technically Speaking</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css" >
-</head>
+  <head>
+    <title>Steph Lopez</title>
+  </head>
 
-<main>
+  <body>
+    <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css" />
+    <div class="header_bar">
 
-<span class="header">
+      <h1 class="title">
+        Steph Lopez
+      </h1>
 
-        <div class="header_links">
+      <div class="header_links">
+          <a href="https://twitter.com/SNLSF"><img src="http://simpleicon.com/wp-content/uploads/twitter.png" alt="Twitter" width="35px" height="35px" /></a>
+          <a href="https://www.linkedin.com/in/stephanienicolelopez/"><img src="http://www.logoeps.com/wp-content/uploads/2014/09/49068-linkedin-logo-icon-vector-icon-vector-eps-200x200.png" alt="LinkedIn" width="35px" height="35px" /></a><br>
           <a href="../index.html">Home</a>/
           <a href="../index-about.html">About</a>/
-          <a href="https://github.com/SNLSF">Github</a>/
+          <a href="../https://github.com/SNLSF">Github</a>/
           <a href="../index-myprojects.html">Projects</a>/
           <a href="../index-myblogs.html">Blog</a>/
           <a href="mailto:stephanielopez.sf@gmail.com?subject=Hello">Contact</a>
+      </div>
+    </div>
+
+    <div class="side_panel">
+
+      <div class="me_pic">
+        <a href="index-about.html"><img src="../pics/steph_pic.png" width=195px /></a><br>
+      </div>
+
+      <div class="write">
+        <a href="mailto:stephanielopez.sf@gmail.com?subject=Hello" STYLE="text-decoration: none">Write to me.</a>
+      </div>
+
+      <!-- twitter feed -->
+      <div class="twitterfeed">
+        <a class="twitter-timeline" href="https://twitter.com/SNLSF" data-widget-id="568452059976847360">Tweets by @SNLSF</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </div>
+    </div>
+
+    <div class="main_body">
+
+      <div class="blog">
+
+        <div class="color_block">
+          <div class="blog_title">Newb to Newb:  Version Control, Git, and Github</div>
+          <div class="blog_subtitle">A brief synopsis.</div>
+          <div class="blog_date">12.13.2014.</div>
         </div>
 
-        <div class="social_media">
-          <a href="https://twitter.com/SNLSF"><img src="http://simpleicon.com/wp-content/uploads/twitter.png" alt="Twitter" width="30" height="30" /></a>
-          <a href="https://www.linkedin.com/in/stephanienicolelopez/"><img src="http://www.logoeps.com/wp-content/uploads/2014/09/49068-linkedin-logo-icon-vector-icon-vector-eps-200x200.png" alt="LinkedIn" width="30" height="30" /></a>
+        <div class="content">
+            <p>
+              If I could get away with posting a few developer ipsum paragraphs in this moment, I would.  Afterall, that's what some of the Dev Bootcamp curriculum looked like to me during various stages in week one at Dev Bootcamp!  So, newb to newb, let's talk about version control, git, and Github in nice simple non brow-furrowing terms.
+          </p>
+          <p>
+            Version control saves incremental changes you make to files, providing versions you can return or restore to. These versions are called commits and each one is accompanied by a commit message that details the changes you made.  We're using git, a widely used version control system, to track my Dev Bootcamp work locally on my Mac.  But because I want to be able to access my work online and share it with others, I'm also using Github, a web-based hosting service for version control.  Any work I've committed to git can be "pushed" to Github and the work becomes live.
+          </p>
+          <p>
+            Version control is also useful when you want to keep current on the latest version of a document made by someone else. Consider you work for a software company that has multiple developers working on the same product.  You can fetch updates and read commit messages from the repository without compromising any of the work you've done on your own. Furthermore, implementing version control makes it easier to give feedback, manage multiple versions of code, measure productivity, and debug code- you simply revert to a working state of the project.
+          </p>
+          <p>
+            One of the more obvious reasons for using a git repository hosting service like Github is its widespread adoption amongst developers. But more specific to my personal experience going through DBC, it provides a unique opportunity for us students to contribute improvements to curriculum as we progress through the course.  If you plan on getting into developing code, git and Github are tools you should seriuosly consider.  The actual technical speak on how to get started can be found online with a quick Google search.  Happy coding!
+          </p>
+            <!-- copy and paste paragraphs -->
         </div>
 
-</span>
+      </div>
 
-<span class="everything">
-  <span class="title"> Newb to Newb:  Version Control, Git, and Github</span>
-  <span class="date">12.13.2014.</span>
-  <span class="subtitle">A brief synopsis.</span>
+    </div>
 
-  <section>
-    <span class="content">
-      <p>
-          If I could get away with posting a few developer ipsum paragraphs in this moment, I would.  Afterall, that's what some of the Dev Bootcamp curriculum looked like to me during various stages in week one at Dev Bootcamp!  So, newb to newb, let's talk about version control, git, and Github in nice simple non brow-furrowing terms.
-      </p>
-      <p>
-        Version control saves incremental changes you make to files, providing versions you can return or restore to. These versions are called commits and each one is accompanied by a commit message that details the changes you made.  We're using git, a widely used version control system, to track my Dev Bootcamp work locally on my Mac.  But because I want to be able to access my work online and share it with others, I'm also using Github, a web-based hosting service for version control.  Any work I've committed to git can be "pushed" to Github and the work becomes live.
-      </p>
-      <p>
-        Version control is also useful when you want to keep current on the latest version of a document made by someone else. Consider you work for a software company that has multiple developers working on the same product.  You can fetch updates and read commit messages from the repository without compromising any of the work you've done on your own. Furthermore, implementing version control makes it easier to give feedback, manage multiple versions of code, measure productivity, and debug code- you simply revert to a working state of the project.
-      </p>
-      <p>
-        One of the more obvious reasons for using a git repository hosting service like Github is its widespread adoption amongst developers. But more specific to my personal experience going through DBC, it provides a unique opportunity for us students to contribute improvements to curriculum as we progress through the course.  If you plan on getting into developing code, git and Github are tools you should seriuosly consider.  The actual technical speak on how to get started can be found online with a quick Google search.  Happy coding!
-      </p>
+    <div class="footer"></div>
 
-  </section>
-  </span>
-</main>
+  </body>
+</html>

@@ -76,62 +76,86 @@ html, body {
   display: inline-block;
 }
 
-    .blog {
-      margin-top: 80px;
-      margin-left: 180px;
-      width: 80%;
-      float: left;
-    }
+h2{
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2em;
+  vertical-align: bottom;
+  margin-top: 80px;
+  color: #373D3C;
+}
 
-    .color_block{
-      background-color: #ccf6f2;
+    /*The use of overflow:hidden allows us to apply floats to the tiles within.*/
+    .wrap {
+      overflow: hidden;
+      margin-right: 5%;
       width: 90%;
+      float: right;
       display: inline-block;
-      border-left: #ccf6f2 solid 15px;
-      padding: 15px;
     }
 
-    .blog_title {
-      font-size: 2em;
-      font-family: 'Permanent Marker', cursive;
-      color: #373D3C;
+    .box {
+      float: right;
+      position: relative;
+      margin-right: 2%;
+      width: 28%;
+      padding-bottom: 20%;
+      border-top: #ccf6f2 solid 9px;
     }
 
-    .blog_subtitle {
-      font-size: 1.3em;
-      font-family: 'Permanent Marker', cursive;
-      color: #373D3C;
+    /*This is the actual content area for each tile.  It is positioned with 10 pixels around each edge.*/
+    .boxInner {
+      position: absolute;
+      left: 10px;
+      right: 10px;
+      top: 10px;
+      bottom: 10px;
+      overflow: hidden;
+    /*  background-color: #FFFCE6;*/
     }
 
-    .blog_date {
-      font-size: 1.3em;
-      font-family: 'Permanent Marker', cursive;
-      color: #373D3C;
+    /*We want our images (which are square) to fill the full tile width, so we use width:100%*/
+    .boxInner img {
+      height: 100%;
+      text-align: center;
+      vertical-align: top;
     }
 
-    .content {
+    .blogtitle {
+      font-size: 1.1em;
+      line-height: 1.4em;
+      font-family: 'Open Sans', sans-serif, bold;
+      font-weight: bold;
+      display: block;
+      font-style: #373D3C;
+    }
+
+    .blogsubtitle {
+      font-size: .9em;
+      line-height: 1.4em;
+      font-family: 'Open Sans', sans-serif, bold;
+      line-height: 1.4em;
+      font-style: #373D3C;
+    }
+
+    .blogdate {
+      font-size: .9em;
+      line-height: 1.4em;
+      font-family: 'Open Sans', sans-serif, bold;
+      font-style: italic;
+      line-height: 1.4em;
+      font-style: #373D3C;
+    }
+
+    .blogblurb{
       font-family: 'Open Sans', sans-serif;
-      color: #373D3C;
-      font-size: 1em;
-      margin-left: 15px;
-      margin-top: 25px;
-      width: 90%;
+      font-size: .8em;
+      line-height: 1.4em;
+      font-style: #373D3C;
     }
 
-  .gif_date{
-    font-family: 'Open Sans', sans-serif;
-    color: #373D3C;
-    font-size: 1.3em;
-  }
-
-  .gif_title{
-    font-family: 'Open Sans', sans-serif;
-    color: #373D3C;
-    font-size: 1em;
-  }
-
-
-
+    body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {margin-bottom: 0;
+    }
 
 .footer{
   width: 100%;
@@ -190,7 +214,6 @@ a:hover {
           padding-bottom: 25%;
        }
     }
-
 
 <!-- Enable media queries for old IE -->
 <!--[if lt IE 9]>

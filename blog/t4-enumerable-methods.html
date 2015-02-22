@@ -1,58 +1,79 @@
 <!DOCTYPE html>
-<head>
+<html>
   <link href='http://fonts.googleapis.com/css?family=Permanent+Marker|Rock+Salt|Open+Sans:300italic,400italic,600italic,400,300,600' rel='stylesheet' type='text/css'>
-  <title>Technically Speaking</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
-</head>
+  <head>
+    <title>Steph Lopez</title>
+  </head>
 
-<main>
+  <body>
+    <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css" />
+    <div class="header_bar">
 
-  <span class="header">
+      <h1 class="title">
+        Steph Lopez
+      </h1>
 
-        <div class="header_links">
+      <div class="header_links">
+          <a href="https://twitter.com/SNLSF"><img src="http://simpleicon.com/wp-content/uploads/twitter.png" alt="Twitter" width="35px" height="35px" /></a>
+          <a href="https://www.linkedin.com/in/stephanienicolelopez/"><img src="http://www.logoeps.com/wp-content/uploads/2014/09/49068-linkedin-logo-icon-vector-icon-vector-eps-200x200.png" alt="LinkedIn" width="35px" height="35px" /></a><br>
           <a href="../index.html">Home</a>/
           <a href="../index-about.html">About</a>/
-          <a href="https://github.com/SNLSF">Github</a>/
+          <a href="../https://github.com/SNLSF">Github</a>/
           <a href="../index-myprojects.html">Projects</a>/
           <a href="../index-myblogs.html">Blog</a>/
           <a href="mailto:stephanielopez.sf@gmail.com?subject=Hello">Contact</a>
+      </div>
+    </div>
+
+    <div class="side_panel">
+
+      <div class="me_pic">
+        <a href="index-about.html"><img src="../pics/steph_pic.png" width=195px /></a><br>
+      </div>
+
+      <div class="write">
+        <a href="mailto:stephanielopez.sf@gmail.com?subject=Hello" STYLE="text-decoration: none">Write to me.</a>
+      </div>
+
+      <!-- twitter feed -->
+      <div class="twitterfeed">
+        <a class="twitter-timeline" href="https://twitter.com/SNLSF" data-widget-id="568452059976847360">Tweets by @SNLSF</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </div>
+    </div>
+
+    <div class="main_body">
+
+      <div class="blog">
+
+        <div class="color_block">
+          <div class="blog_title">Newb to Newb: Enumerable Methodse</div>
+          <div class="blog_subtitle">Enumerable#group_by.</div>
+          <div class="blog_date">01.18.2015.</div>
         </div>
 
-        <div class="social_media">
-          <a href="https://twitter.com/SNLSF"><img src="http://simpleicon.com/wp-content/uploads/twitter.png" alt="Twitter" width="30" height="30" /></a>
-          <a href="https://www.linkedin.com/in/stephanienicolelopez/"><img src="http://www.logoeps.com/wp-content/uploads/2014/09/49068-linkedin-logo-icon-vector-icon-vector-eps-200x200.png" alt="LinkedIn" width="30" height="30" /></a>
+        <div class="content">
+            <p>
+              You have a data set, an array, that needs to be separated by categories in a hash.  If "group_by" sounds like the method you wanted to use on your enumerable, you probably started with a quick Google search and referenced Ruby Docs.  But, if you're new to this game, like me, you probably weren't sure how to make sense of the explanation Ruby Docs gives below.
+              <img src="../groupby.png" style=" margin-top: 30px;margin-bottom: 30px; width: 85%" />
+            </p>
+            <p>
+              #group_by will expect you to input a block with your criteria for grouping.  As a return, you'll be given a hash- the keys identify various groups and the values are arrays containing the members of those groups.
+            </p>
+            <p>
+              In this example, we are given a range of numbers from 1 to 6.  The group_by will iterate through this range of numbers, asking which are divisible by 3.  Starting with group 0, the results 3 and 6 are grouped because the numbers are divisible by 3 with 0 remainders. Group 1 are representative of numbers, in the range of 1 to 6, that, when divided by 3, had a remainder of 1. The grouping continues with the same methodology onto group 2.
+            </p>
+            <p>
+              Though this Ruby Doc example just shows how integers can be grouped, you can imagine the usefulness of group_by with names, types of foods, or countless types of categories.  Run with it!
+            </p>
+            <!-- copy and paste paragraphs -->
         </div>
 
-  </span>
+      </div>
 
-  <span class="everything">
+    </div>
 
-    <span class="title">Newb to Newb: Enumerable Methods</span>
-    <span class="date">01.18.2015.</span>
-    <span class="subtitle">Enumerable#group_by.</span>
+    <div class="footer"></div>
 
-    <section>
-      <span class="content">
-        <p>
-          You have a data set, an array, that needs to be separated by categories in a hash.  If "group_by" sounds like the method you wanted to use on your enumerable, you probably started with a quick Google search and referenced Ruby Docs.  But, if you're new to this game, like me, you probably weren't sure how to make sense of the explanation Ruby Docs gives below.
-          <img src="../groupby.png" style=" margin-top: 30px;margin-bottom: 30px; width: 85%" />
-        </p>
-        <p>
-          #group_by will expect you to input a block with your criteria for grouping.  As a return, you'll be given a hash- the keys identify various groups and the values are arrays containing the members of those groups.
-        </p>
-        <p>
-          In this example, we are given a range of numbers from 1 to 6.  The group_by will iterate through this range of numbers, asking which are divisible by 3.  Starting with group 0, the results 3 and 6 are grouped because the numbers are divisible by 3 with 0 remainders. Group 1 are representative of numbers, in the range of 1 to 6, that, when divided by 3, had a remainder of 1. The grouping continues with the same methodology onto group 2.
-        </p>
-        <p>
-          Though this Ruby Doc example just shows how integers can be grouped, you can imagine the usefulness of group_by with names, types of foods, or countless types of categories.  Run with it!
-        </p>
-        <!-- copy and paste sections -->
-      </span>
-    </section>
-
-  </span>
-
-
-</main>
-
+  </body>
+</html>

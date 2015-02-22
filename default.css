@@ -9,10 +9,6 @@ font-family: 'Open Sans', sans-serif;
 #00D4C0 teal
 #CFBA7D brown*/
 
-/*TO DO:*/
-/*need to standardize everything with sidepanel and content tags (done for the projects but not blogs)*/
-/*Need to change blog template*/
-
 
 html, body {
   height: 100%;
@@ -152,7 +148,6 @@ html, body {
 
     body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {margin-bottom: 0;
     }
-
 
 .footer{
   width: 100%;
